@@ -245,7 +245,6 @@ body {
 }
 .footer-title {
   color: #2f2b2b;
-  margin-bottom: 46px;
   font-size: 30px;
   font-weight: 900;
   letter-spacing: 2.55px;
@@ -258,4 +257,42 @@ body {
   background-color: #ea8f68;
   display: block;
   margin-top: 20px;
+}
+
+.footer-body {
+  background: #d9d9d9;
+  padding-top: 46px;
+}
+.container {
+}
+.footer-body-row {
+  display: flex;
+  overflow: auto;
+  padding-left: 190px;
+}
+.footer-body-item {
+  text-align: center;
+  margin-bottom: 150px;
+  width: 300px;
+  margin-right: 95px;
+  border: 1px solid;
+}
+
+.footer-item-image img {
+  width: 150px;
+  margin: 75px 75px 0;
+}
+.footer-item-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-text {
+  text-align: start;
+}
+.item-text-title {
+}
+.item-text-subtitle {
+}
+.item-price {
 }
