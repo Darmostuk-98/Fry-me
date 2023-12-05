@@ -11,6 +11,8 @@ body {
 
 .wrapper {
   overflow: hidden;
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
 }
 .container {
   width: 1550px;
@@ -53,7 +55,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 160px;
-  padding-bottom: 170px;
 }
 .header-main-text {
 }
@@ -127,6 +128,7 @@ body {
   background-color: #2f2b2b;
   width: 100%;
   white-space: nowrap;
+  margin-top: 85px;
 }
 .text {
   display: inline-block;
